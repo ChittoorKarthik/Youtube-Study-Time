@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Study Time and Thumbnail Title Alert",
+  "version": "1.0",
+  "description": "View Only Educational Videos in YouTube and Display Video Titles on Thumbnail Hover.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "page_action": {
+    "default_popup": "popup.html"
+  }
+}

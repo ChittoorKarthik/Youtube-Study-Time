@@ -1,0 +1,18 @@
+extension. on pointing the cursor on a video's thumbnail, it tells if the video is related to our goals(already given by us on starting youtube). Or simply block videos far from our goals. Only enable videos that matcnh our goals(example : programming,webDev,Animals,Education).
+
+or
+
+while hovering show if its recommended to watch or not.
+After opening alert that its not recommended to watch it
+*forcefully come back to home page.
+
+SHOULD BE ABLE TO HANDLE HOVER OVER:
+1. thumbnail
+2. Title
+3. Channel Name(remember few channels).
+(go to parent element and check for the child having title).
+
+**HANDLE FOR SHORTS ALSO
+
+SSS rank feature: (not yet implemented).
+directly learn from youtube titles->if a person watching a video is proved to be educational, directly make the model learn the channel's name and the title.

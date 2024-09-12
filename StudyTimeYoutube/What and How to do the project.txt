@@ -14,5 +14,5 @@ SHOULD BE ABLE TO HANDLE HOVER OVER:
 
 **HANDLE FOR SHORTS ALSO
 
-SSS rank feature: (not yet implemented).
+SSS rank feature: 
 directly learn from youtube titles->if a person watching a video is proved to be educational, directly make the model learn the channel's name and the title.
